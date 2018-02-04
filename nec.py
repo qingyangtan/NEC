@@ -6,8 +6,8 @@ import wave
 import time
 import stopWatch
 
-ss_path = "/Users/home/Documents/NEC/screenshots"
-video_path = "/Users/home/Documents/NEC/video"
+ss_path = "/Users/home/Documents/Hackathon/NEC/screenshots"
+video_path = "/Users/home/Documents/Hackathon/NEC/video"
 
 cap = cv2.VideoCapture(0) 
 cv2.namedWindow("pitch")

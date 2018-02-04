@@ -5,8 +5,8 @@ CHUNK = 1024
 FORMAT = pyaudio.paInt16
 CHANNELS = 2 
 RATE = 44100
-RECORD_SECONDS = 10
-audio_path = "/Users/home/Documents/NEC/audio"
+RECORD_SECONDS = 30
+audio_path = "/Users/home/Documents/Hackathon/NEC/audio"
 
 p = pyaudio.PyAudio()
 
