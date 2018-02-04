@@ -5,6 +5,7 @@ import pyaudio
 import wave
 import time
 import stopWatch
+from flask import Flask
 
 ss_path = "/Users/home/Documents/NEC/screenshots"
 video_path = "/Users/home/Documents/NEC/video"
@@ -47,3 +48,7 @@ end = time.time()
 out.release()
 cap.release()
 cv2.destroyAllWindows()
+
+app = Flask(__name__)
+if __name__ == '__main__':
+    app.run()
